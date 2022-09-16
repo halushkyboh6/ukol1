@@ -1,0 +1,179 @@
+html {
+    font-size: 5vh;
+}
+
+section {
+    display: grid;
+    width: 100vw;
+}
+
+div {
+    width: 50vw;
+    margin: 0 auto;
+    background-color: rgb(204, 176, 255);
+}
+
+h1, h2 {
+    color: black;
+    text-align: center;
+}
+
+h1 {
+    font-size: 1.5rem;
+}
+
+h2 {
+    font-size: 1.0rem;
+}
+
+body {
+    background-color: rgb(250, 252, 236);
+    margin: 0 auto;
+    font-size: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+} 
+
+.pupu:hover {
+    background-color: rgb(97, 154, 156);
+}
+
+.pipi:hover:hover {
+    background-color: rgb(221, 151, 94);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+iframe{
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    display: block;
+    width: 95vw;
+    height:calc(100% - 20px);
+    margin: 10px auto;
+    border: none;
+    background-color:rgb(140, 156, 245) ;
+}
+
+nav{
+    width:95vw;
+    margin: 10px auto;
+    background: rgb(29, 67, 136);
+    border-radius: 16px;
+    box-shadow: 5px 5px 10px blanchedalmond;
+}
+
+nav a{
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    color: ivory;
+    cursor: pointer;
+}
+
+ul{
+    list-style-type: none;
+}
+
+li a{
+    display: block;
+    line-height: 20px;
+    padding: 10px 50px;
+    transition: background-color 0.5s ease 0s;
+    border-radius: 16px;
+}
+
+li:not(:first-of-type) {
+    border-top: 2px solid rgb(19, 19, 128);
+}
+
+li:nth-child(1) a:hover {
+    border-radius: 16px;
+    background-color: midnightblue;
+}
+
+li:nth-child(2) a:hover {
+    border-radius: 16px;
+    background-color: rgb(30, 30, 160);
+}
+
+li:nth-child(3) a:hover {
+    border-radius: 16px;
+    background-color: rgb(27, 27, 226);
+}
+
+li:nth-child(4) a:hover {
+    border-radius: 16px;
+    background-color: rgb(54, 54, 216);
+}
+
+li:nth-child(5) a:hover {
+    border-radius: 16px;
+    background-color: rgb(96, 96, 255);
+}
+
+
+li{
+    display: block;
+}
+
+@media only screen and (min-width: 1000px) {
+body {
+    font-size: 16px;
+}
+
+a {
+    float: left;
+}
+
+li:not(:first-of-type) {
+    border-top: none;
+    border-left: 2px solid  @media only screen and (min-width: 1000px) {
+body {
+    font-size: 16px;
+}
+
+a {
+    float: left;
+}
+
+li:not(:first-of-type) {
+    border-top: none;
+    border-left: 2px solid rgb(21, 5, 252);
+}
+
+li:last-of-type {
+    border-right: 2px solid rgb(54, 54, 216);
+}
+}
+;
+}
+
+li:last-of-type {
+    border-right: 2px solid rgb(0, 38, 255);
+}
